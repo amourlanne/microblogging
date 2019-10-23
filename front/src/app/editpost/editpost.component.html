@@ -1,0 +1,16 @@
+<div class="contour_post">
+  <div class="edit_post">
+      <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+        <h3>Create a publication :</h3>
+        <div class="form-group">
+          <input type="text" class="form-control" id="exampleFormControlInput1" formControlName="name" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <textarea id="content" type="text" formControlName="content" class="form-control"  placeholder="What's happened ?" rows="3"></textarea>
+        </div>
+        <div class="input-group-append send_button margin_top">
+          <button class="btn btn-success" type="submit button"><span class="glyphicon glyphicon-send"></span> Send </button>
+        </div>
+      </form>
+  </div>
+</div>
