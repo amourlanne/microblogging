@@ -30,3 +30,4 @@ export class EditpostComponent implements OnInit {
   }
 
 }
+
